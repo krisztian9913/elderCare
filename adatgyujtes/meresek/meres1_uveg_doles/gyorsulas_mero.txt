@@ -1,0 +1,4 @@
+A gyorsulás mérő BMI270
+Low power módba volt állítva csak a gyorsulás mérő volt engedélyezve.
+Az érzékenysége +-8g, 4096 a felbontása
+Az adatokat 400Hz-es mintavétellel csinálta

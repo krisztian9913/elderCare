@@ -1,0 +1,163 @@
+[
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T06:29:31.906826",
+    "time (utc)": "04:29:00",
+    "latitude": "46.200785",
+    "longitude": "20.107884"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T06:53:55.818166",
+    "time (utc)": "04:52:48",
+    "latitude": "46.274414",
+    "longitude": "20.097040"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T07:14:02.599954",
+    "time (utc)": "05:13:01",
+    "latitude": "46.274560",
+    "longitude": "20.096652"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T07:36:53.634742",
+    "time (utc)": "05:35:40",
+    "latitude": "46.421521",
+    "longitude": "19.954551"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T07:57:06.564349",
+    "time (utc)": "05:56:17",
+    "latitude": "46.765755",
+    "longitude": "19.765679"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T08:18:13.252093",
+    "time (utc)": "06:17:52",
+    "latitude": "47.048673",
+    "longitude": "19.561351"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T08:41:01.927200",
+    "time (utc)": "06:39:54",
+    "latitude": "47.315444",
+    "longitude": "19.263522"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T09:02:27.353134",
+    "time (utc)": "07:01:20",
+    "latitude": "47.451753",
+    "longitude": "19.119646"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T09:23:34.757697",
+    "time (utc)": "07:22:28",
+    "latitude": "47.494584",
+    "longitude": "19.108996"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T09:48:42.189402",
+    "time (utc)": "07:45:24",
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T10:13:49.723424",
+    "time (utc)": "23:59:42",
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T10:38:56.332876",
+    "time (utc)": "23:59:42",
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T11:04:02.840671",
+    "time (utc)": "23:59:42",
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T11:29:12.318147",
+    "time (utc)": "23:59:42",
+    "latitude": "0.000000",
+    "longitude": "0.000000"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T11:49:19.312649",
+    "time (utc)": "09:48:31",
+    "latitude": "47.508727",
+    "longitude": "19.101498"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T12:11:58.154825",
+    "time (utc)": "10:10:50",
+    "latitude": "47.508959",
+    "longitude": "19.102665"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T12:33:06.586120",
+    "time (utc)": "10:32:00",
+    "latitude": "47.446556",
+    "longitude": "19.125224"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T12:53:18.281180",
+    "time (utc)": "10:52:51",
+    "latitude": "47.194968",
+    "longitude": "19.424709"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T13:14:24.661359",
+    "time (utc)": "11:13:25",
+    "latitude": "46.888275",
+    "longitude": "19.626178"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T13:35:44.337963",
+    "time (utc)": "11:35:07",
+    "latitude": "46.573112",
+    "longitude": "19.873961"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T16:42:31.002744",
+    "time (utc)": "14:41:24",
+    "latitude": "46.274188",
+    "longitude": "20.097423"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T17:04:21.885343",
+    "time (utc)": "15:03:15",
+    "latitude": "46.244122",
+    "longitude": "20.121344"
+  },
+  {
+    "device_id": "nrf-F98C",
+    "timestamp": "2025-05-05T17:24:34.755809",
+    "time (utc)": "15:23:37",
+    "latitude": "46.218357",
+    "longitude": "20.110647"
+  }
+]

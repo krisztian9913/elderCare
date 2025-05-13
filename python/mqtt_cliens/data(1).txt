@@ -1,0 +1,10 @@
+Idő (UTC): 04:10:18, Szélesség: 46.200886, Hosszúság: 20.1078
+Idő (UTC): 04:25:30, Szélesség: 46.208344, Hosszúság: 20.107164
+Idő (UTC): 04:41:35, Szélesség: 46.242315, Hosszúság: 20.126247
+Idő (UTC): 04:57:40, Szélesség: 46.266538, Hosszúság: 20.111425
+Idő (UTC): 05:14:22, Szélesség: 46.27433, Hosszúság: 20.097352
+Idő (UTC): 05:31:02, Szélesség: 46.274527, Hosszúság: 20.097009
+Idő (UTC): 23:59:42, Szélesség: 0.0, Hosszúság: 0.0
+Idő (UTC): 14:50:00, Szélesség: 46.253551, Hosszúság: 20.123471
+Idő (UTC): 15:05:05, Szélesség: 46.233037, Hosszúság: 20.121305
+Idő (UTC): 15:21:12, Szélesség: 46.200738, Hosszúság: 20.108396

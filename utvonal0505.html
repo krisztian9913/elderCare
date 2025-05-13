@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cf449282584b03a5915207b5a24fb863 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_cf449282584b03a5915207b5a24fb863" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cf449282584b03a5915207b5a24fb863 = L.map(
+                "map_cf449282584b03a5915207b5a24fb863",
+                {
+                    center: [46.200785, 20.107884],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_76b770022dc196a08170a2aa871fcc8e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_76b770022dc196a08170a2aa871fcc8e.addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+            var poly_line_2714e927090bcd700ce1132d3836c736 = L.polyline(
+                [[46.200785, 20.107884], [46.274414, 20.09704], [46.27456, 20.096652], [46.421521, 19.954551], [46.765755, 19.765679], [47.048673, 19.561351], [47.315444, 19.263522], [47.451753, 19.119646], [47.494584, 19.108996]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+            var poly_line_76d5ec5279062df0f3b34d50025717bf = L.polyline(
+                [[47.508727, 19.101498], [47.508959, 19.102665], [47.446556, 19.125224], [47.194968, 19.424709], [46.888275, 19.626178], [46.573112, 19.873961], [46.274188, 20.097423], [46.244122, 20.121344], [46.218357, 20.110647]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+            var marker_2528a6ceb7bc4f2a0ac1519404e1f181 = L.marker(
+                [46.200785, 20.107884],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_76b03f9726af6d2c278c0ba0b363b2cb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5b55a7cc4118175e2b8c73a720cf179d = $(`<div id="html_5b55a7cc4118175e2b8c73a720cf179d" style="width: 100.0%; height: 100.0%;">2025-05-05 06:29:31 Szeged Szercsika utca</div>`)[0];
+                popup_76b03f9726af6d2c278c0ba0b363b2cb.setContent(html_5b55a7cc4118175e2b8c73a720cf179d);
+            
+        
+
+        marker_2528a6ceb7bc4f2a0ac1519404e1f181.bindPopup(popup_76b03f9726af6d2c278c0ba0b363b2cb)
+        ;
+
+        
+    
+    
+            var marker_7b77d0c45348274ac7d917b94f9fda17 = L.marker(
+                [46.274414, 20.09704],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_0b33d010d76a85319b0df3fa892b66ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5aea9073644cff9461b6379f782242e = $(`<div id="html_a5aea9073644cff9461b6379f782242e" style="width: 100.0%; height: 100.0%;">2025-05-05 06:53:55 Szeged Házgyári út</div>`)[0];
+                popup_0b33d010d76a85319b0df3fa892b66ed.setContent(html_a5aea9073644cff9461b6379f782242e);
+            
+        
+
+        marker_7b77d0c45348274ac7d917b94f9fda17.bindPopup(popup_0b33d010d76a85319b0df3fa892b66ed)
+        ;
+
+        
+    
+    
+            var marker_d7f1666dc43c30a2445477d3ff0ee7fc = L.marker(
+                [46.27456, 20.096652],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_c0f50f0a225e2af8f5072ecdea18aa8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5de409db5ff124ec09989cb1a9dcfe7 = $(`<div id="html_e5de409db5ff124ec09989cb1a9dcfe7" style="width: 100.0%; height: 100.0%;">2025-05-05 07:14:02 Szeged Dorozsmai út</div>`)[0];
+                popup_c0f50f0a225e2af8f5072ecdea18aa8e.setContent(html_e5de409db5ff124ec09989cb1a9dcfe7);
+            
+        
+
+        marker_d7f1666dc43c30a2445477d3ff0ee7fc.bindPopup(popup_c0f50f0a225e2af8f5072ecdea18aa8e)
+        ;
+
+        
+    
+    
+            var marker_cca8685c9250af63fb88acabd613d767 = L.marker(
+                [46.421521, 19.954551],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_7471e4b1c0494ae76a0bb8fd179c20fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fe007900bf73fdaa46daa8ee477900f1 = $(`<div id="html_fe007900bf73fdaa46daa8ee477900f1" style="width: 100.0%; height: 100.0%;">2025-05-05 07:36:53  M5</div>`)[0];
+                popup_7471e4b1c0494ae76a0bb8fd179c20fe.setContent(html_fe007900bf73fdaa46daa8ee477900f1);
+            
+        
+
+        marker_cca8685c9250af63fb88acabd613d767.bindPopup(popup_7471e4b1c0494ae76a0bb8fd179c20fe)
+        ;
+
+        
+    
+    
+            var marker_e7cdca6151aa8b7c3f9c7679913f09af = L.marker(
+                [46.765755, 19.765679],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_5e0f4be77086932251a37cf5dbb568bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_850a5c20129b82a734d2fcb3d48d4e60 = $(`<div id="html_850a5c20129b82a734d2fcb3d48d4e60" style="width: 100.0%; height: 100.0%;">2025-05-05 07:57:06  M5</div>`)[0];
+                popup_5e0f4be77086932251a37cf5dbb568bb.setContent(html_850a5c20129b82a734d2fcb3d48d4e60);
+            
+        
+
+        marker_e7cdca6151aa8b7c3f9c7679913f09af.bindPopup(popup_5e0f4be77086932251a37cf5dbb568bb)
+        ;
+
+        
+    
+    
+            var marker_ca544330935cbcfc8c7b2ee8c023413e = L.marker(
+                [47.048673, 19.561351],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_aef534818f4db622085341d96c288f72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0190a3ad04fd79c15f6ffaf67f943cf9 = $(`<div id="html_0190a3ad04fd79c15f6ffaf67f943cf9" style="width: 100.0%; height: 100.0%;">2025-05-05 08:18:13  Forgató dűlő</div>`)[0];
+                popup_aef534818f4db622085341d96c288f72.setContent(html_0190a3ad04fd79c15f6ffaf67f943cf9);
+            
+        
+
+        marker_ca544330935cbcfc8c7b2ee8c023413e.bindPopup(popup_aef534818f4db622085341d96c288f72)
+        ;
+
+        
+    
+    
+            var marker_08e62562666de9f227198b67719d657b = L.marker(
+                [47.315444, 19.263522],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_624b23d83f002a3f091cc53cbcd80bc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cb0bf685ef845a2bc871387b09123d4d = $(`<div id="html_cb0bf685ef845a2bc871387b09123d4d" style="width: 100.0%; height: 100.0%;">2025-05-05 08:41:01  M5</div>`)[0];
+                popup_624b23d83f002a3f091cc53cbcd80bc9.setContent(html_cb0bf685ef845a2bc871387b09123d4d);
+            
+        
+
+        marker_08e62562666de9f227198b67719d657b.bindPopup(popup_624b23d83f002a3f091cc53cbcd80bc9)
+        ;
+
+        
+    
+    
+            var marker_817319d3d551c2ab3862139040ee5ba2 = L.marker(
+                [47.451753, 19.119646],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_6828baadd8a6455071bd2cb13cd0a64d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d1982c21d22486c86180c58ba124e264 = $(`<div id="html_d1982c21d22486c86180c58ba124e264" style="width: 100.0%; height: 100.0%;">2025-05-05 09:02:27 Budapest Aba utca</div>`)[0];
+                popup_6828baadd8a6455071bd2cb13cd0a64d.setContent(html_d1982c21d22486c86180c58ba124e264);
+            
+        
+
+        marker_817319d3d551c2ab3862139040ee5ba2.bindPopup(popup_6828baadd8a6455071bd2cb13cd0a64d)
+        ;
+
+        
+    
+    
+            var marker_c7163e555848f4330d79b15a1ce35f17 = L.marker(
+                [47.494584, 19.108996],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_9009c8afb2f7564e40297b82abde76bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c23888bc16d2eb97cc83c73e94d3f38a = $(`<div id="html_c23888bc16d2eb97cc83c73e94d3f38a" style="width: 100.0%; height: 100.0%;">2025-05-05 09:23:34 Budapest Hungária körút</div>`)[0];
+                popup_9009c8afb2f7564e40297b82abde76bd.setContent(html_c23888bc16d2eb97cc83c73e94d3f38a);
+            
+        
+
+        marker_c7163e555848f4330d79b15a1ce35f17.bindPopup(popup_9009c8afb2f7564e40297b82abde76bd)
+        ;
+
+        
+    
+    
+            var marker_63f041fea4f4fb864fc5ebe4c351f036 = L.marker(
+                [47.508727, 19.101498],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_b1596d3365cf6e81f49dbbe0c55941a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dc2e87ffaf821967278551aa9b32f645 = $(`<div id="html_dc2e87ffaf821967278551aa9b32f645" style="width: 100.0%; height: 100.0%;">2025-05-05 11:49:19 Budapest Semsey Andor utca</div>`)[0];
+                popup_b1596d3365cf6e81f49dbbe0c55941a5.setContent(html_dc2e87ffaf821967278551aa9b32f645);
+            
+        
+
+        marker_63f041fea4f4fb864fc5ebe4c351f036.bindPopup(popup_b1596d3365cf6e81f49dbbe0c55941a5)
+        ;
+
+        
+    
+    
+            var marker_d9a9b47c1b0b3b345fd2ff485d82b566 = L.marker(
+                [47.508959, 19.102665],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_d4e3a886351ad399db164edc55f4b55e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9832cf760f88a207f53691611472fd6 = $(`<div id="html_f9832cf760f88a207f53691611472fd6" style="width: 100.0%; height: 100.0%;">2025-05-05 12:11:58 Budapest Hungária körút</div>`)[0];
+                popup_d4e3a886351ad399db164edc55f4b55e.setContent(html_f9832cf760f88a207f53691611472fd6);
+            
+        
+
+        marker_d9a9b47c1b0b3b345fd2ff485d82b566.bindPopup(popup_d4e3a886351ad399db164edc55f4b55e)
+        ;
+
+        
+    
+    
+            var marker_ce1311a965f9f260eb6bb65e6c3dfaa0 = L.marker(
+                [47.446556, 19.125224],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_294d97922b05a5c5ae68b02f71bde5bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4af0bab3b48b3c78b619aba336d79b3d = $(`<div id="html_4af0bab3b48b3c78b619aba336d79b3d" style="width: 100.0%; height: 100.0%;">2025-05-05 12:33:06 Budapest Mikszáth utca</div>`)[0];
+                popup_294d97922b05a5c5ae68b02f71bde5bd.setContent(html_4af0bab3b48b3c78b619aba336d79b3d);
+            
+        
+
+        marker_ce1311a965f9f260eb6bb65e6c3dfaa0.bindPopup(popup_294d97922b05a5c5ae68b02f71bde5bd)
+        ;
+
+        
+    
+    
+            var marker_1eafa3af61ad243b580789bd9d7c1594 = L.marker(
+                [47.194968, 19.424709],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_3527636235b051f52f856ec20374f67a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2bcdda268ac3327aafe9ea0ae35b37c3 = $(`<div id="html_2bcdda268ac3327aafe9ea0ae35b37c3" style="width: 100.0%; height: 100.0%;">2025-05-05 12:53:18  M5</div>`)[0];
+                popup_3527636235b051f52f856ec20374f67a.setContent(html_2bcdda268ac3327aafe9ea0ae35b37c3);
+            
+        
+
+        marker_1eafa3af61ad243b580789bd9d7c1594.bindPopup(popup_3527636235b051f52f856ec20374f67a)
+        ;
+
+        
+    
+    
+            var marker_389c2bea5f13344219ae68592cd44249 = L.marker(
+                [46.888275, 19.626178],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_47d111fd912d85b47b52048799cda52c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0071e09ee6de17cd263b24a326be1b19 = $(`<div id="html_0071e09ee6de17cd263b24a326be1b19" style="width: 100.0%; height: 100.0%;">2025-05-05 13:14:24 Kecskemét M5</div>`)[0];
+                popup_47d111fd912d85b47b52048799cda52c.setContent(html_0071e09ee6de17cd263b24a326be1b19);
+            
+        
+
+        marker_389c2bea5f13344219ae68592cd44249.bindPopup(popup_47d111fd912d85b47b52048799cda52c)
+        ;
+
+        
+    
+    
+            var marker_5016361afa209846af55809495d6710b = L.marker(
+                [46.573112, 19.873961],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_a702647150d641b54fd8a1a8fd626b39 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_585a4c51b704646b0465eddbfb98db9a = $(`<div id="html_585a4c51b704646b0465eddbfb98db9a" style="width: 100.0%; height: 100.0%;">2025-05-05 13:35:44  M5</div>`)[0];
+                popup_a702647150d641b54fd8a1a8fd626b39.setContent(html_585a4c51b704646b0465eddbfb98db9a);
+            
+        
+
+        marker_5016361afa209846af55809495d6710b.bindPopup(popup_a702647150d641b54fd8a1a8fd626b39)
+        ;
+
+        
+    
+    
+            var marker_389e7f6d436de539cb594b543730bc93 = L.marker(
+                [46.274188, 20.097423],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_8f61ce5fde15b81f22a6bbe30c42b91b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a65e5d700ceb4dbe54ceb81fadce0e10 = $(`<div id="html_a65e5d700ceb4dbe54ceb81fadce0e10" style="width: 100.0%; height: 100.0%;">2025-05-05 16:42:31 Szeged Házgyári út</div>`)[0];
+                popup_8f61ce5fde15b81f22a6bbe30c42b91b.setContent(html_a65e5d700ceb4dbe54ceb81fadce0e10);
+            
+        
+
+        marker_389e7f6d436de539cb594b543730bc93.bindPopup(popup_8f61ce5fde15b81f22a6bbe30c42b91b)
+        ;
+
+        
+    
+    
+            var marker_b63c04e6d64fb1bc82050a092c1b409e = L.marker(
+                [46.244122, 20.121344],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_6d3765d7bd9f54ce01431bfc10587983 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_81e13cb41b247d5d72121290b298b1dc = $(`<div id="html_81e13cb41b247d5d72121290b298b1dc" style="width: 100.0%; height: 100.0%;">2025-05-05 17:04:21 Szeged Móravárosi körút</div>`)[0];
+                popup_6d3765d7bd9f54ce01431bfc10587983.setContent(html_81e13cb41b247d5d72121290b298b1dc);
+            
+        
+
+        marker_b63c04e6d64fb1bc82050a092c1b409e.bindPopup(popup_6d3765d7bd9f54ce01431bfc10587983)
+        ;
+
+        
+    
+    
+            var marker_1e529bc1ffba683539ab4645c7c55856 = L.marker(
+                [46.218357, 20.110647],
+                {
+}
+            ).addTo(map_cf449282584b03a5915207b5a24fb863);
+        
+    
+        var popup_efa93457583b1b2fd3a3a0273974596d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_148e44caeab1810a732206ac2303f5c2 = $(`<div id="html_148e44caeab1810a732206ac2303f5c2" style="width: 100.0%; height: 100.0%;">2025-05-05 17:24:34 Szeged Gyálai út</div>`)[0];
+                popup_efa93457583b1b2fd3a3a0273974596d.setContent(html_148e44caeab1810a732206ac2303f5c2);
+            
+        
+
+        marker_1e529bc1ffba683539ab4645c7c55856.bindPopup(popup_efa93457583b1b2fd3a3a0273974596d)
+        ;
+
+        
+    
+</script>
+</html>
